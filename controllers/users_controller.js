@@ -19,10 +19,11 @@ module.exports.profile = function(req, res){
 
     }
 }
-// module.exports.logout=function(req,res){
+module.exports.logout=function(req,res){
      
-//   return res.redirect('/users/sign-in');
-// }
+    res.cookie('user_id', -1);
+  return res.redirect('/users/sign-in');
+}
 
 // render the sign up page
 module.exports.signUp = function(req, res){
