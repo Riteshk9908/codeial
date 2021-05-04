@@ -7,5 +7,7 @@ console.log('router loaded');
 
 router.get('/',homeController.home);
 router.use('/users',require('./users'));
+router.use('/posts',require('./posts'));
+
 //router.get('/ritesh',homeController.actionName);//ye wali ni krrhi 
 module.exports=router;
