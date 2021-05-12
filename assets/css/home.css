@@ -1,0 +1,15 @@
+.btn {
+  background-color: #64e8ed;
+  border-radius: 5%; }
+
+#inner-text {
+  background-color: #e5f0e4; }
+
+#posts-list-container {
+  color: #f2f8f1; }
+
+body {
+  background-color: rgba(10, 10, 10, 0.925); }
+
+.btn:hover {
+  background-color: white; }
