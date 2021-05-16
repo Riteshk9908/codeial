@@ -15,3 +15,26 @@ body{
 .btn:hover{
     background-color: white;
 }
+#home-container{
+    display: flex;
+    
+    #feed-posts{
+        width: 70%;
+        padding: 10px;
+    }
+
+    #user-friends{
+        width: 30%;
+        padding: 10px;
+        
+        
+    }
+}
+.vertical {
+    border-left: 4px solid rgb(238, 245, 250);
+    height: 100%;
+    position:absolute;
+    left: 65%;
+
+}
+ 
